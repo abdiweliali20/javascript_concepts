@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse over event listener</title>
+</head>
+<style>
+    div{
+        background-color: aquamarine;
+    }
+</style>
+
+<body>
+    <div id="mydiv">
+     hover over me
+    </div>
+    <script>
+        document.getElementById("mydiv").addEventListener('mouseover',function (){
+            this.style.backgroundColor ="lightblue"
+        })
+    </script>
+
+    
+</body>
+</html>
